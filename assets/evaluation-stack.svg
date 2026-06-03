@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-labelledby="title desc">
+<title id="title">Agent evaluation stack</title>
+<desc id="desc">A layered evaluation stack for agentic AI systems.</desc>
+
+<defs>
+  <linearGradient id="bgGrad" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0%" stop-color="#F8FAFC"/>
+    <stop offset="52%" stop-color="#EFF6FF"/>
+    <stop offset="100%" stop-color="#F5F3FF"/>
+  </linearGradient>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L0,6 L9,3 z" fill="#64748B" />
+  </marker>
+</defs>
+
+<rect x="0" y="0" width="1280" height="760" rx="0" fill="url(#bgGrad)" opacity="1"/>
+<text x="640" y="58" font-size="32" font-weight="900" fill="#0F172A" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Evaluation Stack for Agentic AI</text>
+<text x="640" y="88" font-size="16" font-weight="500" fill="#475569" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Report agent results as a multi-objective profile, not only a success rate.</text>
+<rect x="230" y="138" width="820" height="60" rx="18" fill="#EFF6FF" opacity="1" stroke="#2563EB" stroke-width="1.6"/>
+<text x="258" y="174" font-size="18" font-weight="900" fill="#2563EB" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" >1. Task success</text>
+<text x="480" y="174" font-size="13" font-weight="600" fill="#475569" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" >Did the agent complete the goal under the stated conditions?</text>
+<rect x="253" y="208" width="774" height="65" rx="18" fill="#ECFDF5" opacity="1" stroke="#0F766E" stroke-width="1.6"/>
+<text x="281" y="244" font-size="18" font-weight="900" fill="#0F766E" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" >2. Trajectory quality</text>
+<text x="503" y="244" font-size="13" font-weight="600" fill="#475569" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" >Were plans, tool calls, citations, and intermediate states grounded?</text>
+<rect x="276" y="283" width="728" height="70" rx="18" fill="#F5F3FF" opacity="1" stroke="#7C3AED" stroke-width="1.6"/>
+<text x="304" y="319" font-size="18" font-weight="900" fill="#7C3AED" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" >3. Cost and latency</text>
+<text x="526" y="319" font-size="13" font-weight="600" fill="#475569" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" >How many tokens, tool calls, retries, seconds, and dollars were used?</text>
+<rect x="299" y="363" width="682" height="75" rx="18" fill="#FFFBEB" opacity="1" stroke="#D97706" stroke-width="1.6"/>
+<text x="327" y="399" font-size="18" font-weight="900" fill="#D97706" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" >4. Robustness</text>
+<text x="549" y="399" font-size="13" font-weight="600" fill="#475569" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" >Does behavior survive interface drift, distractors, retries, and perturbations?</text>
+<rect x="322" y="448" width="636" height="80" rx="18" fill="#FFF1F2" opacity="1" stroke="#E11D48" stroke-width="1.6"/>
+<text x="350" y="484" font-size="18" font-weight="900" fill="#E11D48" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" >5. Safety</text>
+<text x="572" y="484" font-size="13" font-weight="600" fill="#475569" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" >Are tools least-privilege, memory governed, and untrusted inputs isolated?</text>
+<rect x="345" y="538" width="590" height="85" rx="18" fill="#F1F5F9" opacity="1" stroke="#334155" stroke-width="1.6"/>
+<text x="373" y="574" font-size="18" font-weight="900" fill="#334155" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" >6. Reproducibility</text>
+<text x="595" y="574" font-size="13" font-weight="600" fill="#475569" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" >Are prompts, model versions, scaffolds, budgets, seeds, and logs reported?</text>
+<rect x="70" y="176" width="120" height="330" rx="20" fill="#FFFFFF" opacity="1" stroke="#E2E8F0" stroke-width="1"/>
+<text x="130" y="214" font-size="18" font-weight="900" fill="#0F172A" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Inputs</text>
+<rect x="92" y="240" width="76" height="28" rx="14.0" fill="#F8FAFC" opacity="1" stroke="#CBD5E1" stroke-width="1"/>
+<text x="130.0" y="259.0" font-size="12" font-weight="700" fill="#334155" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Model</text>
+<rect x="92" y="282" width="76" height="28" rx="14.0" fill="#F8FAFC" opacity="1" stroke="#CBD5E1" stroke-width="1"/>
+<text x="130.0" y="301.0" font-size="12" font-weight="700" fill="#334155" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Prompt</text>
+<rect x="92" y="324" width="76" height="28" rx="14.0" fill="#F8FAFC" opacity="1" stroke="#CBD5E1" stroke-width="1"/>
+<text x="130.0" y="343.0" font-size="12" font-weight="700" fill="#334155" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Tools</text>
+<rect x="92" y="366" width="76" height="28" rx="14.0" fill="#F8FAFC" opacity="1" stroke="#CBD5E1" stroke-width="1"/>
+<text x="130.0" y="385.0" font-size="12" font-weight="700" fill="#334155" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Budget</text>
+<rect x="92" y="408" width="76" height="28" rx="14.0" fill="#F8FAFC" opacity="1" stroke="#CBD5E1" stroke-width="1"/>
+<text x="130.0" y="427.0" font-size="12" font-weight="700" fill="#334155" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Data</text>
+<rect x="92" y="450" width="76" height="28" rx="14.0" fill="#F8FAFC" opacity="1" stroke="#CBD5E1" stroke-width="1"/>
+<text x="130.0" y="469.0" font-size="12" font-weight="700" fill="#334155" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Policy</text>
+<rect x="1090" y="176" width="120" height="330" rx="20" fill="#FFFFFF" opacity="1" stroke="#E2E8F0" stroke-width="1"/>
+<text x="1150" y="214" font-size="18" font-weight="900" fill="#0F172A" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Outputs</text>
+<rect x="1112" y="240" width="76" height="28" rx="14.0" fill="#F8FAFC" opacity="1" stroke="#CBD5E1" stroke-width="1"/>
+<text x="1150.0" y="259.0" font-size="12" font-weight="700" fill="#334155" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Score</text>
+<rect x="1112" y="282" width="76" height="28" rx="14.0" fill="#F8FAFC" opacity="1" stroke="#CBD5E1" stroke-width="1"/>
+<text x="1150.0" y="301.0" font-size="12" font-weight="700" fill="#334155" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Cost</text>
+<rect x="1112" y="324" width="76" height="28" rx="14.0" fill="#F8FAFC" opacity="1" stroke="#CBD5E1" stroke-width="1"/>
+<text x="1150.0" y="343.0" font-size="12" font-weight="700" fill="#334155" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Trace</text>
+<rect x="1112" y="366" width="76" height="28" rx="14.0" fill="#F8FAFC" opacity="1" stroke="#CBD5E1" stroke-width="1"/>
+<text x="1150.0" y="385.0" font-size="12" font-weight="700" fill="#334155" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Risk</text>
+<rect x="1112" y="408" width="76" height="28" rx="14.0" fill="#F8FAFC" opacity="1" stroke="#CBD5E1" stroke-width="1"/>
+<text x="1150.0" y="427.0" font-size="12" font-weight="700" fill="#334155" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Errors</text>
+<rect x="1112" y="450" width="76" height="28" rx="14.0" fill="#F8FAFC" opacity="1" stroke="#CBD5E1" stroke-width="1"/>
+<text x="1150.0" y="469.0" font-size="12" font-weight="700" fill="#334155" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Logs</text>
+<path d="M190 340 L230 340" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1050 340 L1090 340" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="250" y="665" width="780" height="54" rx="18" fill="#FFFFFF" opacity="1" stroke="#E2E8F0" stroke-width="1"/>
+<text x="640" y="700" font-size="16" font-weight="900" fill="#0F172A" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Recommended reporting: success + process + cost + robustness + safety + reproducibility</text>
+</svg>

@@ -1,0 +1,191 @@
+# Benchmark metadata for Awesome Agentic AI Systems.
+
+- name: "Mind2Web"
+  year: 2023
+  domain: web navigation
+  scale: 2000+ tasks, 137 websites, 31 domains
+  feedback: action sequence and element grounding
+  paper: https://arxiv.org/abs/2306.06070
+  project: https://osu-nlp-group.github.io/Mind2Web/
+
+- name: "WebArena"
+  year: 2023
+  domain: web agents
+  scale: self-hosted websites across ecommerce, forum, development, CMS
+  feedback: functional task success
+  paper: https://arxiv.org/abs/2307.13854
+  code: https://github.com/web-arena-x/webarena
+
+- name: "AgentBench"
+  year: 2023
+  domain: general LLM agents
+  scale: 8 interactive environments
+  feedback: environment-level success
+  paper: https://arxiv.org/abs/2308.03688
+  code: https://github.com/THUDM/AgentBench
+
+- name: "SWE-bench"
+  year: 2023
+  domain: software engineering
+  scale: 2294 real GitHub issues from 12 Python repositories
+  feedback: execution tests and issue resolution
+  paper: https://arxiv.org/abs/2310.06770
+  code: https://github.com/swe-bench/SWE-bench
+
+- name: "MLAgentBench"
+  year: 2023
+  domain: machine learning experimentation
+  scale: 13 end-to-end ML tasks
+  feedback: code execution and experiment result
+  paper: https://arxiv.org/abs/2310.03302
+  code: https://github.com/snap-stanford/MLAgentBench
+
+- name: "GAIA"
+  year: 2023
+  domain: general AI assistants
+  scale: 466 real-world questions
+  feedback: short-answer scoring with multimodal and tool-use requirements
+  paper: https://arxiv.org/abs/2311.12983
+  project: https://huggingface.co/gaia-benchmark
+
+- name: "AgentBoard"
+  year: 2024
+  domain: multi-turn agents
+  scale: analytical evaluation board across environments
+  feedback: progress rate, success rate, grounding accuracy
+  paper: https://arxiv.org/abs/2401.13178
+  project: https://hkust-nlp.github.io/agentboard/
+
+- name: "WorkArena"
+  year: 2024
+  domain: enterprise web agents
+  scale: ServiceNow knowledge-work tasks
+  feedback: browser task completion
+  paper: https://arxiv.org/abs/2403.07718
+  project: https://servicenow.github.io/WorkArena/
+
+- name: "BEHAVIOR-1K"
+  year: 2024
+  domain: embodied AI
+  scale: 1000 activities, 50 scenes, 9000+ objects
+  feedback: simulation rewards and task completion
+  paper: https://arxiv.org/abs/2403.09227
+  project: https://behavior.stanford.edu/
+
+- name: "OSWorld"
+  year: 2024
+  domain: computer-use agents
+  scale: 369 desktop and web tasks
+  feedback: execution-based evaluation scripts
+  paper: https://arxiv.org/abs/2404.07972
+  project: https://os-world.github.io/
+
+- name: "AndroidWorld"
+  year: 2024
+  domain: mobile agents
+  scale: 116 tasks across 20 Android apps
+  feedback: programmatic system-state checks
+  paper: https://arxiv.org/abs/2405.14573
+  project: https://google-research.github.io/android_world/
+
+- name: "tau-bench"
+  year: 2024
+  domain: tool-agent-user interaction
+  scale: simulated users, domain APIs, policy rules
+  feedback: database-state comparison and pass@k reliability
+  paper: https://arxiv.org/abs/2406.12045
+  code: https://github.com/sierra-research/tau2-bench
+
+- name: "AgentDojo"
+  year: 2024
+  domain: agent security
+  scale: 97 realistic tasks, 629 security test cases
+  feedback: utility score and attack success
+  paper: https://arxiv.org/abs/2406.13352
+  code: https://github.com/ethz-spylab/agentdojo
+
+- name: "GTA"
+  year: 2024
+  domain: general tool agents
+  scale: 229 real-world tasks with executable tool chains
+  feedback: tool-chain correctness and task completion
+  paper: https://arxiv.org/abs/2407.08713
+  code: https://github.com/open-compass/GTA
+
+- name: "AppWorld"
+  year: 2024
+  domain: app and API agents
+  scale: 750 tasks, 9 apps, 457 APIs
+  feedback: state-based unit tests and collateral-damage checks
+  paper: https://arxiv.org/abs/2407.18901
+  project: https://appworld.dev/
+
+- name: "MLE-bench"
+  year: 2024
+  domain: ML engineering agents
+  scale: 75 Kaggle-style competitions
+  feedback: competition scoring
+  paper: https://arxiv.org/abs/2410.07095
+  code: https://github.com/openai/mle-bench
+
+- name: "ScienceAgentBench"
+  year: 2024
+  domain: scientific agents
+  scale: 102 tasks from 44 peer-reviewed publications
+  feedback: program correctness, execution results, expert validation
+  paper: https://arxiv.org/abs/2410.05080
+  code: https://github.com/OSU-NLP-Group/ScienceAgentBench
+
+- name: "AgentHarm"
+  year: 2024
+  domain: agent misuse
+  scale: 110 malicious tasks, 440 augmented tasks
+  feedback: refusal, jailbreak robustness, harmful task completion
+  paper: https://arxiv.org/abs/2410.09024
+
+- name: "Agent-SafetyBench"
+  year: 2024
+  domain: agent safety
+  scale: 349 interaction environments, 2000 test cases
+  feedback: safety categories and failure modes
+  paper: https://arxiv.org/abs/2412.14470
+  code: https://github.com/thu-coai/Agent-SafetyBench
+
+- name: "BEARCUBS"
+  year: 2025
+  domain: live web computer-use agents
+  scale: 111 information-seeking questions
+  feedback: short answer and human-validated browsing trajectory
+  paper: https://arxiv.org/abs/2503.07919
+
+- name: "BrowseComp"
+  year: 2025
+  domain: browsing agents
+  scale: 1266 hard-to-find web questions
+  feedback: short verifiable answers
+  paper: https://arxiv.org/abs/2504.12516
+  project: https://openai.com/index/browsecomp/
+
+- name: "WASP"
+  year: 2025
+  domain: web-agent security
+  scale: realistic web-agent hijacking objectives
+  feedback: hijack initiation and goal completion
+  paper: https://arxiv.org/abs/2504.18575
+  code: https://github.com/facebookresearch/wasp
+
+- name: "Agent-X"
+  year: 2025
+  domain: vision-centric agentic reasoning
+  scale: 828 multimodal multi-step tasks
+  feedback: step-level reasoning and tool-use evaluation
+  paper: https://arxiv.org/abs/2505.24876
+  code: https://github.com/mbzuai-oryx/Agent-X
+
+- name: "Mind2Web 2"
+  year: 2025
+  domain: agentic search
+  scale: 130 long-horizon live-web tasks
+  feedback: agent-as-a-judge rubric and source attribution
+  paper: https://arxiv.org/abs/2506.21506
+  project: https://osu-nlp-group.github.io/Mind2Web-2/

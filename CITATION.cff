@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Awesome Agentic AI Systems"
+message: "If you use this repository, please cite it and the accompanying survey."
+type: dataset
+authors:
+  - family-names: Ashraf
+    given-names: Tajamul
+year: 2026
+license: MIT
+url: "https://github.com/your-github-username/awesome-agentic-ai-systems"
+keywords:
+  - agentic AI
+  - LLM agents
+  - tool use
+  - web agents
+  - computer-use agents
+  - multimodal agents
+  - embodied agents
+  - AI safety

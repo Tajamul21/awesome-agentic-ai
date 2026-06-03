@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-labelledby="title desc">
+<title id="title">Benchmark map for agentic AI systems</title>
+<desc id="desc">A domain by feedback-strength map of major agentic AI benchmarks.</desc>
+
+<defs>
+  <linearGradient id="bgGrad" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0%" stop-color="#F8FAFC"/>
+    <stop offset="52%" stop-color="#EFF6FF"/>
+    <stop offset="100%" stop-color="#F5F3FF"/>
+  </linearGradient>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L0,6 L9,3 z" fill="#64748B" />
+  </marker>
+</defs>
+
+<rect x="0" y="0" width="1280" height="760" rx="0" fill="url(#bgGrad)" opacity="1"/>
+<text x="640" y="56" font-size="32" font-weight="900" fill="#0F172A" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Agent Benchmark Map</text>
+<text x="640" y="86" font-size="16" font-weight="500" fill="#475569" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Use this map to choose evaluations by domain, verifier strength, and deployment realism.</text>
+<rect x="110" y="140" width="1060" height="500" rx="22" fill="#FFFFFF" opacity="1" stroke="#E2E8F0" stroke-width="1"/>
+<text x="68" y="390.0" font-size="17" font-weight="800" fill="#334155" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" transform="rotate(-90 68 390)">Verifier strength</text>
+<text x="640.0" y="698" font-size="17" font-weight="800" fill="#334155" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Environment and action realism</text>
+<line x1="110" y1="265.0" x2="1170" y2="265.0" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="110" y1="390.0" x2="1170" y2="390.0" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="110" y1="515.0" x2="1170" y2="515.0" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="286.66666666666663" y1="140" x2="286.66666666666663" y2="640" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="463.3333333333333" y1="140" x2="463.3333333333333" y2="640" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="640.0" y1="140" x2="640.0" y2="640" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="816.6666666666666" y1="140" x2="816.6666666666666" y2="640" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="993.3333333333334" y1="140" x2="993.3333333333334" y2="640" stroke="#E2E8F0" stroke-width="1"/>
+<text x="198.33333333333331" y="668" font-size="14" font-weight="800" fill="#475569" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Text / QA</text>
+<text x="375.0" y="668" font-size="14" font-weight="800" fill="#475569" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Web</text>
+<text x="551.6666666666667" y="668" font-size="14" font-weight="800" fill="#475569" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Code</text>
+<text x="728.3333333333334" y="668" font-size="14" font-weight="800" fill="#475569" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >GUI / Mobile</text>
+<text x="905.0" y="668" font-size="14" font-weight="800" fill="#475569" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Tool APIs</text>
+<text x="1081.6666666666665" y="668" font-size="14" font-weight="800" fill="#475569" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Embodied</text>
+<text x="128" y="207.5" font-size="12" font-weight="700" fill="#475569" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" >Strong executable feedback</text>
+<text x="128" y="332.5" font-size="12" font-weight="700" fill="#475569" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" >State checks / judges</text>
+<text x="128" y="457.5" font-size="12" font-weight="700" fill="#475569" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" >Human or rubric review</text>
+<text x="128" y="582.5" font-size="12" font-weight="700" fill="#475569" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" >Open-world uncertain</text>
+<rect x="169.0" y="213" width="82" height="34" rx="17.0" fill="#FFFFFF" opacity="1" stroke="#2563EB" stroke-width="1"/>
+<text x="210.0" y="235.0" font-size="12" font-weight="700" fill="#2563EB" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >GAIA</text>
+<rect x="322.0" y="233" width="86" height="34" rx="17.0" fill="#FFFFFF" opacity="1" stroke="#0891B2" stroke-width="1"/>
+<text x="365.0" y="255.0" font-size="12" font-weight="700" fill="#0891B2" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Mind2Web</text>
+<rect x="342.0" y="338" width="86" height="34" rx="17.0" fill="#FFFFFF" opacity="1" stroke="#0891B2" stroke-width="1"/>
+<text x="385.0" y="360.0" font-size="12" font-weight="700" fill="#0891B2" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >WebArena</text>
+<rect x="354.0" y="453" width="102" height="34" rx="17.0" fill="#FFFFFF" opacity="1" stroke="#0891B2" stroke-width="1"/>
+<text x="405.0" y="475.0" font-size="12" font-weight="700" fill="#0891B2" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >BrowseComp</text>
+<rect x="382.0" y="503" width="86" height="34" rx="17.0" fill="#FFFFFF" opacity="1" stroke="#0891B2" stroke-width="1"/>
+<text x="425.0" y="525.0" font-size="12" font-weight="700" fill="#0891B2" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >BEARCUBS</text>
+<rect x="498.0" y="188" width="94" height="34" rx="17.0" fill="#FFFFFF" opacity="1" stroke="#0F766E" stroke-width="1"/>
+<text x="545.0" y="210.0" font-size="12" font-weight="700" fill="#0F766E" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >SWE-bench</text>
+<rect x="511.0" y="253" width="118" height="34" rx="17.0" fill="#FFFFFF" opacity="1" stroke="#0F766E" stroke-width="1"/>
+<text x="570.0" y="275.0" font-size="12" font-weight="700" fill="#0F766E" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >MLAgentBench</text>
+<rect x="543.0" y="313" width="94" height="34" rx="17.0" fill="#FFFFFF" opacity="1" stroke="#0F766E" stroke-width="1"/>
+<text x="590.0" y="335.0" font-size="12" font-weight="700" fill="#0F766E" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >MLE-bench</text>
+<rect x="679.0" y="243" width="82" height="34" rx="17.0" fill="#FFFFFF" opacity="1" stroke="#7C3AED" stroke-width="1"/>
+<text x="720.0" y="265.0" font-size="12" font-weight="700" fill="#7C3AED" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >OSWorld</text>
+<rect x="701.0" y="313" width="118" height="34" rx="17.0" fill="#FFFFFF" opacity="1" stroke="#7C3AED" stroke-width="1"/>
+<text x="760.0" y="335.0" font-size="12" font-weight="700" fill="#7C3AED" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >AndroidWorld</text>
+<rect x="733.0" y="393" width="94" height="34" rx="17.0" fill="#FFFFFF" opacity="1" stroke="#7C3AED" stroke-width="1"/>
+<text x="780.0" y="415.0" font-size="12" font-weight="700" fill="#7C3AED" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >WorkArena</text>
+<rect x="853.0" y="223" width="94" height="34" rx="17.0" fill="#FFFFFF" opacity="1" stroke="#D97706" stroke-width="1"/>
+<text x="900.0" y="245.0" font-size="12" font-weight="700" fill="#D97706" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >tau-bench</text>
+<rect x="877.0" y="293" width="86" height="34" rx="17.0" fill="#FFFFFF" opacity="1" stroke="#D97706" stroke-width="1"/>
+<text x="920.0" y="315.0" font-size="12" font-weight="700" fill="#D97706" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >AppWorld</text>
+<rect x="904.0" y="373" width="82" height="34" rx="17.0" fill="#FFFFFF" opacity="1" stroke="#D97706" stroke-width="1"/>
+<text x="945.0" y="395.0" font-size="12" font-weight="700" fill="#D97706" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >GTA</text>
+<rect x="1025.0" y="223" width="110" height="34" rx="17.0" fill="#FFFFFF" opacity="1" stroke="#E11D48" stroke-width="1"/>
+<text x="1080.0" y="245.0" font-size="12" font-weight="700" fill="#E11D48" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >BEHAVIOR-1K</text>
+<rect x="994.0" y="363" width="82" height="34" rx="17.0" fill="#FFFFFF" opacity="1" stroke="#E11D48" stroke-width="1"/>
+<text x="1035.0" y="385.0" font-size="12" font-weight="700" fill="#E11D48" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >Agent-X</text>
+<rect x="843.0" y="503" width="94" height="34" rx="17.0" fill="#FFFFFF" opacity="1" stroke="#E11D48" stroke-width="1"/>
+<text x="890.0" y="525.0" font-size="12" font-weight="700" fill="#E11D48" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >AgentDojo</text>
+<rect x="944.0" y="518" width="82" height="34" rx="17.0" fill="#FFFFFF" opacity="1" stroke="#E11D48" stroke-width="1"/>
+<text x="985.0" y="540.0" font-size="12" font-weight="700" fill="#E11D48" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >WASP</text>
+<rect x="723.0" y="528" width="94" height="34" rx="17.0" fill="#FFFFFF" opacity="1" stroke="#E11D48" stroke-width="1"/>
+<text x="770.0" y="550.0" font-size="12" font-weight="700" fill="#E11D48" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" >AgentHarm</text>
+<rect x="210" y="670" width="860" height="52" rx="18" fill="#FFFFFF" opacity="1" stroke="#E2E8F0" stroke-width="1"/>
+<circle cx="240" cy="696" r="7" fill="#0891B2"/>
+<text x="255" y="701" font-size="13" font-weight="700" fill="#475569" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" >web/search</text>
+<circle cx="395" cy="696" r="7" fill="#0F766E"/>
+<text x="410" y="701" font-size="13" font-weight="700" fill="#475569" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" >software</text>
+<circle cx="550" cy="696" r="7" fill="#7C3AED"/>
+<text x="565" y="701" font-size="13" font-weight="700" fill="#475569" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" >GUI/mobile</text>
+<circle cx="705" cy="696" r="7" fill="#D97706"/>
+<text x="720" y="701" font-size="13" font-weight="700" fill="#475569" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" >tool/API</text>
+<circle cx="860" cy="696" r="7" fill="#E11D48"/>
+<text x="875" y="701" font-size="13" font-weight="700" fill="#475569" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" >safety/embodied</text>
+</svg>

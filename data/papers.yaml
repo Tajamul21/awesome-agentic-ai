@@ -1,0 +1,408 @@
+# Curated metadata for Awesome Agentic AI Systems.
+# Fields: title, year, category, tags, paper, code, project, note.
+
+- title: "WebGPT: Browser-assisted question-answering with human feedback"
+  year: 2021
+  category: foundations
+  tags: [web, browsing, citations, human-feedback]
+  paper: https://arxiv.org/abs/2112.09332
+  note: "Early browser-assisted long-form QA with citation grounding and human feedback."
+
+- title: "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances"
+  year: 2022
+  category: embodied
+  tags: [robotics, planning, affordances]
+  paper: https://arxiv.org/abs/2204.01691
+  project: https://say-can.github.io/
+  note: "Grounds language-model plans in feasible robot skills."
+
+- title: "ReAct: Synergizing Reasoning and Acting in Language Models"
+  year: 2022
+  category: foundations
+  tags: [reasoning, acting, tools, interpretability]
+  paper: https://arxiv.org/abs/2210.03629
+  project: https://react-lm.github.io
+  note: "Interleaves reasoning traces and environment actions."
+
+- title: "Toolformer: Language Models Can Teach Themselves to Use Tools"
+  year: 2023
+  category: foundations
+  tags: [tools, api-use, self-supervision]
+  paper: https://arxiv.org/abs/2302.04761
+  note: "Self-supervised tool-use learning from a small number of API demonstrations."
+
+- title: "PaLM-E: An Embodied Multimodal Language Model"
+  year: 2023
+  category: embodied
+  tags: [multimodal, robotics, embodied-reasoning]
+  paper: https://arxiv.org/abs/2303.03378
+  note: "Embeds real-world continuous sensor modalities into a language model."
+
+- title: "Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models"
+  year: 2023
+  category: multimodal
+  tags: [vision, tools, editing]
+  paper: https://arxiv.org/abs/2303.04671
+  code: https://github.com/askfriends/visual-chatgpt
+  note: "Connects an LLM with visual foundation models for multi-step visual tasks."
+
+- title: "ViperGPT: Visual Inference via Python Execution for Reasoning"
+  year: 2023
+  category: multimodal
+  tags: [vision, code, programmatic-reasoning]
+  paper: https://arxiv.org/abs/2303.08128
+  code: https://github.com/cvlab-columbia/viper
+  note: "Generates Python programs that compose visual modules."
+
+- title: "Reflexion: Language Agents with Verbal Reinforcement Learning"
+  year: 2023
+  category: foundations
+  tags: [memory, reflection, self-improvement]
+  paper: https://arxiv.org/abs/2303.11366
+  code: https://github.com/noahshinn/reflexion
+  note: "Uses verbal feedback and episodic memory across trials."
+
+- title: "HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face"
+  year: 2023
+  category: orchestration
+  tags: [tools, model-routing, multimodal]
+  paper: https://arxiv.org/abs/2303.17580
+  code: https://github.com/AI-Chef/HuggingGPT
+  note: "Uses an LLM as a controller over a model ecosystem."
+
+- title: "CAMEL: Communicative Agents for Mind Exploration of Large Language Model Society"
+  year: 2023
+  category: multi-agent
+  tags: [communication, role-playing, societies]
+  paper: https://arxiv.org/abs/2303.17760
+  project: https://www.camel-ai.org
+  note: "Role-playing framework for multi-agent cooperation."
+
+- title: "Voyager: An Open-Ended Embodied Agent with Large Language Models"
+  year: 2023
+  category: embodied
+  tags: [lifelong-learning, skill-library, minecraft]
+  paper: https://arxiv.org/abs/2305.16291
+  project: https://voyager.minedojo.org/
+  note: "Open-ended embodied lifelong learning with skill library and curriculum."
+
+- title: "Mind2Web: Towards a Generalist Agent for the Web"
+  year: 2023
+  category: benchmark
+  tags: [web, navigation, dataset]
+  paper: https://arxiv.org/abs/2306.06070
+  project: https://osu-nlp-group.github.io/Mind2Web/
+  code: https://github.com/OSU-NLP-Group/Mind2Web
+  note: "Web-agent dataset with real websites and crowd trajectories."
+
+- title: "ChatDev: Communicative Agents for Software Development"
+  year: 2023
+  category: multi-agent
+  tags: [software-engineering, communication, multi-agent]
+  paper: https://arxiv.org/abs/2307.07924
+  code: https://github.com/OpenBMB/ChatDev
+  note: "Multi-agent software development with chat-chain communication."
+
+- title: "WebArena: A Realistic Web Environment for Building Autonomous Agents"
+  year: 2023
+  category: benchmark
+  tags: [web, browser, environment]
+  paper: https://arxiv.org/abs/2307.13854
+  code: https://github.com/web-arena-x/webarena
+  note: "Self-hosted realistic websites for autonomous web agents."
+
+- title: "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control"
+  year: 2023
+  category: embodied
+  tags: [robotics, vla, transfer]
+  paper: https://arxiv.org/abs/2307.15818
+  project: https://robotics-transformer2.github.io/
+  note: "Casts robotic actions as tokens in a vision-language-action model."
+
+- title: "MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework"
+  year: 2023
+  category: multi-agent
+  tags: [sop, collaboration, software-engineering]
+  paper: https://arxiv.org/abs/2308.00352
+  code: https://github.com/geekan/MetaGPT
+  note: "Uses SOP-style workflows for multi-agent collaboration."
+
+- title: "AgentBench: Evaluating LLMs as Agents"
+  year: 2023
+  category: benchmark
+  tags: [general-agent, evaluation, interactive-environments]
+  paper: https://arxiv.org/abs/2308.03688
+  code: https://github.com/THUDM/AgentBench
+  note: "Multi-environment benchmark for LLM agents."
+
+- title: "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation"
+  year: 2023
+  category: multi-agent
+  tags: [conversation, framework, tools]
+  paper: https://arxiv.org/abs/2308.08155
+  code: https://github.com/microsoft/autogen
+  note: "Multi-agent conversation programming framework."
+
+- title: "A Survey on Large Language Model based Autonomous Agents"
+  year: 2023
+  category: survey
+  tags: [survey, llm-agents]
+  paper: https://arxiv.org/abs/2308.11432
+  code: https://github.com/Paitesanshi/LLM-Agent-Survey
+  note: "Holistic survey of LLM-based autonomous agents."
+
+- title: "The Rise and Potential of Large Language Model Based Agents: A Survey"
+  year: 2023
+  category: survey
+  tags: [survey, llm-agents]
+  paper: https://arxiv.org/abs/2309.07864
+  note: "Survey of LLM-based agents and agent societies."
+
+- title: "MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation"
+  year: 2023
+  category: benchmark
+  tags: [ml, experimentation, code]
+  paper: https://arxiv.org/abs/2310.03302
+  code: https://github.com/snap-stanford/MLAgentBench
+  note: "End-to-end ML experimentation benchmark for agents."
+
+- title: "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?"
+  year: 2023
+  category: benchmark
+  tags: [software-engineering, github, tests]
+  paper: https://arxiv.org/abs/2310.06770
+  code: https://github.com/swe-bench/SWE-bench
+  note: "Real GitHub issues with execution-based verification."
+
+- title: "GAIA: a benchmark for General AI Assistants"
+  year: 2023
+  category: benchmark
+  tags: [general-assistant, tools, browsing, multimodal]
+  paper: https://arxiv.org/abs/2311.12983
+  project: https://huggingface.co/gaia-benchmark
+  note: "Real-world assistant questions requiring tools, web browsing, and reasoning."
+
+- title: "AgentBoard: An Analytical Evaluation Board of Multi-turn LLM Agents"
+  year: 2024
+  category: benchmark
+  tags: [evaluation, progress-rate, multi-turn]
+  paper: https://arxiv.org/abs/2401.13178
+  project: https://hkust-nlp.github.io/agentboard/
+  note: "Fine-grained evaluation dashboard for multi-turn agents."
+
+- title: "Large Language Model based Multi-Agents: A Survey of Progress and Challenges"
+  year: 2024
+  category: survey
+  tags: [multi-agent, survey]
+  paper: https://arxiv.org/abs/2402.01680
+  note: "Survey of LLM-based multi-agent systems."
+
+- title: "Large Multimodal Agents: A Survey"
+  year: 2024
+  category: survey
+  tags: [multimodal, survey]
+  paper: https://arxiv.org/abs/2402.15116
+  code: https://github.com/jun0wanan/awesome-large-multimodal-agents
+  note: "Survey of LLM-driven multimodal agents."
+
+- title: "WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks?"
+  year: 2024
+  category: benchmark
+  tags: [enterprise, web, browser]
+  paper: https://arxiv.org/abs/2403.07718
+  project: https://servicenow.github.io/WorkArena/
+  code: https://github.com/ServiceNow/WorkArena
+  note: "Enterprise browser-agent benchmark based on ServiceNow tasks."
+
+- title: "BEHAVIOR-1K: A Human-Centered, Embodied AI Benchmark with 1,000 Everyday Activities and Realistic Simulation"
+  year: 2024
+  category: benchmark
+  tags: [embodied, robotics, simulation]
+  paper: https://arxiv.org/abs/2403.09227
+  project: https://behavior.stanford.edu/
+  note: "Embodied AI benchmark grounded in everyday activities."
+
+- title: "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments"
+  year: 2024
+  category: benchmark
+  tags: [computer-use, desktop, multimodal]
+  paper: https://arxiv.org/abs/2404.07972
+  project: https://os-world.github.io/
+  note: "Real computer environment across desktop and web tasks."
+
+- title: "AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents"
+  year: 2024
+  category: benchmark
+  tags: [mobile, android, computer-use]
+  paper: https://arxiv.org/abs/2405.14573
+  project: https://google-research.github.io/android_world/
+  code: https://github.com/google-research/android_world
+  note: "Android tasks with programmatic initialization and success checks."
+
+- title: "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering"
+  year: 2024
+  category: software-agents
+  tags: [coding, agent-computer-interface, swe-bench]
+  paper: https://arxiv.org/abs/2405.15793
+  code: https://github.com/SWE-agent/SWE-agent
+  note: "Demonstrates the importance of agent-computer interfaces for coding tasks."
+
+- title: "tau-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains"
+  year: 2024
+  category: benchmark
+  tags: [tools, user-simulation, rules, reliability]
+  paper: https://arxiv.org/abs/2406.12045
+  code: https://github.com/sierra-research/tau2-bench
+  note: "Benchmarks tool-using agents with simulated users, domain rules, and pass@k reliability."
+
+- title: "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents"
+  year: 2024
+  category: safety
+  tags: [prompt-injection, tools, security]
+  paper: https://arxiv.org/abs/2406.13352
+  code: https://github.com/ethz-spylab/agentdojo
+  note: "Dynamic benchmark for prompt-injection attacks and defenses."
+
+- title: "GTA: A Benchmark for General Tool Agents"
+  year: 2024
+  category: benchmark
+  tags: [tool-use, multimodal, evaluation]
+  paper: https://arxiv.org/abs/2407.08713
+  code: https://github.com/open-compass/GTA
+  note: "Real user queries with executable tool chains and multimodal context."
+
+- title: "AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents"
+  year: 2024
+  category: benchmark
+  tags: [apps, apis, code, state-checking]
+  paper: https://arxiv.org/abs/2407.18901
+  project: https://appworld.dev/
+  note: "App and API environment with state-based unit tests."
+
+- title: "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents"
+  year: 2024
+  category: safety
+  tags: [misuse, jailbreak, harmful-actions]
+  paper: https://arxiv.org/abs/2410.09024
+  note: "Measures harmful agentic task completion and jailbreak robustness."
+
+- title: "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering"
+  year: 2024
+  category: benchmark
+  tags: [ml-engineering, kaggle, evaluation]
+  paper: https://arxiv.org/abs/2410.07095
+  code: https://github.com/openai/mle-bench
+  note: "Evaluates AI agents on Kaggle-style ML engineering competitions."
+
+- title: "ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery"
+  year: 2024
+  category: benchmark
+  tags: [science, data-analysis, code]
+  paper: https://arxiv.org/abs/2410.05080
+  code: https://github.com/OSU-NLP-Group/ScienceAgentBench
+  note: "Scientific workflow tasks extracted from peer-reviewed publications."
+
+- title: "A Survey on LLM-based Multi-Agent System: Recent Advances and New Frontiers"
+  year: 2024
+  category: survey
+  tags: [multi-agent, survey]
+  paper: https://arxiv.org/abs/2412.17481
+  note: "Recent survey of LLM-based multi-agent systems."
+
+- title: "Agent-SafetyBench: Evaluating the Safety of LLM Agents"
+  year: 2024
+  category: safety
+  tags: [safety, benchmark, failure-modes]
+  paper: https://arxiv.org/abs/2412.14470
+  code: https://github.com/thu-coai/Agent-SafetyBench
+  note: "Safety benchmark with diverse interaction environments and failure categories."
+
+- title: "Agents for Computer Use: A Comprehensive Survey"
+  year: 2025
+  category: survey
+  tags: [computer-use, survey, gui]
+  paper: https://arxiv.org/abs/2501.16150
+  note: "Survey of agents that operate computers via browsers, desktops, and mobile devices."
+
+- title: "BEARCUBS: A benchmark for computer-using web agents"
+  year: 2025
+  category: benchmark
+  tags: [web, live-web, computer-use, multimodal]
+  paper: https://arxiv.org/abs/2503.07919
+  note: "Live-web benchmark with information-seeking and multimodal interactions."
+
+- title: "Survey on Evaluation of LLM-based Agents"
+  year: 2025
+  category: survey
+  tags: [evaluation, survey]
+  paper: https://arxiv.org/abs/2503.16416
+  note: "Survey of evaluation methodologies for LLM-based agents."
+
+- title: "Large Language Model Agent: A Survey on Methodology, Applications and Challenges"
+  year: 2025
+  category: survey
+  tags: [llm-agents, survey]
+  paper: https://huggingface.co/papers/2503.21460
+  note: "Taxonomy of agent methodology, applications, and challenges."
+
+- title: "BrowseComp: A Simple Yet Challenging Benchmark for Browsing Agents"
+  year: 2025
+  category: benchmark
+  tags: [browsing, web, search]
+  paper: https://arxiv.org/abs/2504.12516
+  project: https://openai.com/index/browsecomp/
+  note: "Hard-to-find web questions with short verifiable answers."
+
+- title: "WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks"
+  year: 2025
+  category: safety
+  tags: [web, prompt-injection, security]
+  paper: https://arxiv.org/abs/2504.18575
+  code: https://github.com/facebookresearch/wasp
+  note: "Tests web-agent security against realistic prompt-injection objectives."
+
+- title: "Agent-X: Evaluating Deep Multimodal Reasoning in Vision-Centric Agentic Tasks"
+  year: 2025
+  category: benchmark
+  tags: [multimodal, vision, tool-use, reasoning]
+  paper: https://arxiv.org/abs/2505.24876
+  code: https://github.com/mbzuai-oryx/Agent-X
+  note: "Vision-centric agentic benchmark with step-level reasoning and tool evaluation."
+
+- title: "Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge"
+  year: 2025
+  category: benchmark
+  tags: [agentic-search, web, agent-as-judge]
+  paper: https://arxiv.org/abs/2506.21506
+  project: https://osu-nlp-group.github.io/Mind2Web-2/
+  code: https://github.com/OSU-NLP-Group/Mind2Web-2
+  note: "Long-horizon live-web tasks evaluated with agent-as-a-judge rubrics."
+
+- title: "Evaluation and Benchmarking of LLM Agents: A Survey"
+  year: 2025
+  category: survey
+  tags: [evaluation, benchmarking, survey]
+  paper: https://arxiv.org/abs/2507.21504
+  note: "Survey of evaluation objectives, processes, reliability, safety, and enterprise challenges."
+
+- title: "A Survey on Agentic Multimodal Large Language Models"
+  year: 2025
+  category: survey
+  tags: [survey, multimodal, tool-use, environment-interaction]
+  paper: https://arxiv.org/abs/2510.10991
+  code: https://github.com/HJYao00/Awesome-Agentic-MLLMs
+  note: "Surveys agentic MLLMs across internal intelligence, external tools, and environment interaction."
+
+- title: "AI Agentic Programming: A Survey of Techniques, Challenges, and Opportunities"
+  year: 2025
+  category: survey
+  tags: [survey, software-engineering, coding-agents, tools]
+  paper: https://arxiv.org/abs/2508.11126
+  note: "Surveys planning, memory, tool integration, monitoring, and evaluation for software-development agents."
+
+- title: "Toward Edge General Intelligence with Agentic AI and Agentification"
+  year: 2025
+  category: survey
+  tags: [survey, edge-ai, deployment, agentification]
+  paper: https://arxiv.org/abs/2508.18725
+  note: "Connects agentic AI to edge intelligence, compact deployment, and distributed systems."

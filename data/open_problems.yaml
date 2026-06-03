@@ -1,0 +1,64 @@
+# Research agenda for agentic AI systems.
+
+- problem: Reliable long-horizon planning
+  why: Errors compound across actions, observations, and state updates.
+  questions:
+    - When should an agent branch, backtrack, or stop?
+    - How can planning be evaluated before final task completion?
+    - How can agents avoid over-deliberation and uncontrolled search cost?
+
+- problem: Uncertainty-aware action and deferral
+  why: Safe agents need to recognize when they should ask for help or avoid acting.
+  questions:
+    - How can agents calibrate confidence over trajectories instead of single answers?
+    - Which uncertainty signals should trigger human approval?
+    - How should uncertainty be exposed to users without overwhelming them?
+
+- problem: Memory governance
+  why: Persistent memory improves personalization but creates privacy, drift, and contamination risks.
+  questions:
+    - What should be written to memory, and what should be forgotten?
+    - How can memory provenance be audited?
+    - How can agents avoid stale or poisoned memories?
+
+- problem: Verifier design and the verification gap
+  why: Test-time scaling depends on the ability to select good trajectories.
+  questions:
+    - How can verifiers score intermediate progress?
+    - How can judge models be stress-tested for bias and brittleness?
+    - When are executable verifiers preferable to model-based judges?
+
+- problem: Grounded multimodal control
+  why: Many GUI and visual tasks fail because perception does not align with action.
+  questions:
+    - How should screenshots, accessibility trees, DOM, and semantic actions be fused?
+    - How can agents decide when visual evidence is insufficient?
+    - How can step-level visual reasoning be evaluated?
+
+- problem: Secure tool use
+  why: Tools expand capability and attack surface at the same time.
+  questions:
+    - How can least-privilege tool access be made standard?
+    - How can untrusted content be isolated from instructions?
+    - How should credentials, network access, and file-system access be scoped?
+
+- problem: Agent interoperability
+  why: Agentic ecosystems may involve agents from different vendors and organizations.
+  questions:
+    - What information should protocols standardize?
+    - How should agents authenticate, discover capabilities, and exchange task state?
+    - How should multi-agent logs be audited?
+
+- problem: Human-agent collaboration
+  why: The best deployed agents may be bounded collaborators, not fully autonomous systems.
+  questions:
+    - Which actions should require approval?
+    - How should agents summarize uncertainty and alternatives?
+    - How should accountability be assigned across humans, agents, and institutions?
+
+- problem: Socially beneficial deployment
+  why: Public value must be measured together with risk, labor effects, access, and accountability.
+  questions:
+    - Which public-sector tasks are suitable for bounded agents?
+    - How can agentic systems support education, accessibility, and scientific work?
+    - How can deployment avoid creating opaque automation or hidden labor displacement?

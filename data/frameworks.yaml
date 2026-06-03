@@ -1,0 +1,85 @@
+# Framework and infrastructure metadata.
+
+- name: "LangGraph"
+  category: orchestration graph
+  best_for: long-running stateful graph-structured agents
+  language: Python, JavaScript
+  url: https://github.com/langchain-ai/langgraph
+  docs: https://www.langchain.com/langgraph
+
+- name: "AutoGen"
+  category: multi-agent programming
+  best_for: event-driven multi-agent research and applications
+  language: Python, .NET
+  url: https://github.com/microsoft/autogen
+  docs: https://microsoft.github.io/autogen/stable/index.html
+
+- name: "CrewAI"
+  category: multi-agent automation
+  best_for: role-specialized crews and production workflows
+  language: Python
+  url: https://github.com/crewAIInc/crewAI
+  docs: https://docs.crewai.com/
+
+- name: "OpenAI Agents SDK"
+  category: agent SDK
+  best_for: tools, handoffs, guardrails, sessions, tracing
+  language: Python
+  url: https://github.com/openai/openai-agents-python
+  docs: https://openai.github.io/openai-agents-python/
+
+- name: "smolagents"
+  category: code-first agents
+  best_for: minimal code-agent experiments and sandboxed tool use
+  language: Python
+  url: https://github.com/huggingface/smolagents
+  docs: https://huggingface.co/docs/smolagents/index
+
+- name: "LlamaIndex"
+  category: RAG and agents
+  best_for: data connectors, retrieval tools, and agentic workflows
+  language: Python, TypeScript
+  url: https://github.com/run-llama/llama_index
+  docs: https://docs.llamaindex.ai/
+
+- name: "Semantic Kernel"
+  category: enterprise agent framework
+  best_for: planners, plugins, connectors, and enterprise integration
+  language: C#, Python, Java
+  url: https://github.com/microsoft/semantic-kernel
+  docs: https://learn.microsoft.com/semantic-kernel/
+
+- name: "Haystack"
+  category: RAG and search agents
+  best_for: retrieval pipelines, tool calling, and agentic RAG
+  language: Python
+  url: https://github.com/deepset-ai/haystack
+  docs: https://docs.haystack.deepset.ai/
+
+- name: "BrowserGym"
+  category: browser environment
+  best_for: browser-agent evaluation and task environments
+  language: Python
+  url: https://github.com/ServiceNow/BrowserGym
+  docs: https://github.com/ServiceNow/BrowserGym
+
+- name: "WorkArena"
+  category: enterprise web benchmark
+  best_for: ServiceNow knowledge-work agents
+  language: Python
+  url: https://github.com/ServiceNow/WorkArena
+  docs: https://servicenow.github.io/WorkArena/
+
+- name: "Model Context Protocol"
+  category: tool and data protocol
+  best_for: standardized connection between LLM apps and external context/tools
+  language: protocol
+  url: https://github.com/modelcontextprotocol/modelcontextprotocol
+  docs: https://modelcontextprotocol.io/specification/2025-06-18
+
+- name: "Agent2Agent"
+  category: agent interoperability protocol
+  best_for: communication and collaboration between agentic applications
+  language: protocol
+  url: https://github.com/a2aproject/A2A
+  docs: https://a2a-protocol.org/latest/
