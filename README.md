@@ -343,9 +343,5 @@ Please open a pull request or create an issue.
 If you find this repository useful, please cite our survey:
 
 ```bibtex
-@article{ashraf2026agentic,
-  title={Agentic AI Systems: A Comprehensive Survey of LLM-based, Multimodal, Computer-Using, and Embodied Agents},
-  author={Ashraf, Tajamul and others},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
-  year={2026}
+
 }
