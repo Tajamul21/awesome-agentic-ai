@@ -356,23 +356,7 @@ If this repository helps your research, please cite the survey and the repositor
 Replace the GitHub URL after the repository is published.
 
 ```bibtex
-@misc{ashraf2026awesomeagenticai,
-  title        = {Awesome Agentic AI Systems},
-  author       = {Ashraf, Tajamul and contributors},
-  year         = {2026},
-  howpublished = {\url{https://github.com/your-github-username/awesome-agentic-ai-systems}},
-  note         = {Living repository for papers, benchmarks, frameworks, safety resources, and reproducibility checklists for agentic AI systems}
-}
-```
 
-```bibtex
-@article{ashraf2026agenticai,
-  title   = {From Models to Agents: A Systems Survey of Agentic AI},
-  author  = {Ashraf, Tajamul and others},
-  journal = {arXiv preprint},
-  year    = {2026},
-  note    = {To appear}
-}
 ```
 
 ---
